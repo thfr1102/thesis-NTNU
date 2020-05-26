@@ -1,33 +1,51 @@
 \documentclass[british,titlepage]{ntnuthesis}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{colortbl}
 
-\title{Security Awareness and Risk Perceptions when using smart home IoT devices}
-%\shorttitle{Security Awareness and Risk Perceptions when using smart home IoT devices}
+\title{Security Awareness and Risk Perceptions when using Smart Home IoT Devices}
+%\shorttitle{Security Awareness and Risk Perceptions when using Smart Home IoT Devices}
 \author{Fredrik Løvaas Theien}
 %\shortauthor{Fredrik Løvaas Theien}
-\date{CC-BY \ntnuthesisdate}
+\date{\ntnuthesisdate}
 
 \addbibresource{thesis.bib}
 
+\usepackage{float}
+
 \begin{document}
 
-\input{chapters/0a-abstract.tex}
-\input{chapters/0b-sammendrag.tex}
+\input{chapters/0a_abstract.tex}
+\input{chapters/0b_sammendrag.tex}
 
 \tableofcontents
 \listoffigures
 \listoftables
 \lstlistoflistings
 
-\input{chapters/1-introduction}
-\input{chapters/2-usage.tex}
-\input{chapters/3-structure.tex}
-\input{chapters/4-conclusion.tex}
+\input{chapters/1_introduction.tex}
+\input{chapters/2_background.tex}
+\input{chapters/3_related-work}
+\input{chapters/4_method}
+\input{chapters/5_results.tex}
+\input{chapters/6_discussion.tex}
+\input{chapters/7_conclusion.tex}
 
 \printbibliography
-
-\input{chapters/papers.tex}
 
 \appendix
 \input{appendices/a-appendix.tex}
 
 \end{document}
+
+\begin{comment}
+- Table of contents
+- Start identifying questions --> hypothesis
+    - Data collection preparations
+- Research questions
+
+- Meeting summary:
+    - What done?
+    - What do you want to discuss?
+    - What do you plan to do?
+\end{comment}
