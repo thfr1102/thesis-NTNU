@@ -1,23 +1,57 @@
-\chapter{Background}
+\chapter{Background and definitions}
 \label{chap:background}
-This chapter will introduce the background of the different topics my thesis will be about. I will be discussing the background of the three main concepts of my thesis. These topics are smart homes, security awareness and risk perceptions. 
+This chapter will introduce a brief background of the different topics my thesis will be about, and provide definitions to make sure the reader understands the basic concepts. These topics are smart homes and security awareness. 
 
 \section{Smart homes}
-Identifying related work in regards to smart homes is important to my thesis in order to help define the boundaries of the concept, and agree on a common viewpoint. 
+Identifying the concepts regarding smart homes is important to my thesis in order to help define the boundaries of the concept, and agree on a common viewpoint. 
 
-The paper by Mennicken and Huang \cite{Mennicken2012} seeks to understand how these technologies are integrated into homes, as well as their effects on the residents. They conducted a qualitative study involving smart home providers and consumers. The main results were motivations for home automation, phases of making a smart home, and the different roles of the residents. Especially interesting is the identification of different roles within the household. Technologically competent people can generally be identified as home technology drivers, who shows strong interest in home automation. Household members with no technical background, but still have the main responsibility of the home automation are categorised as home technology responsibles. Most other users are categorised as passive users, except for guests and children. These groups were not interviewed directly, however were referred to by the participants. 
+\subsection{Definition}
+According to IoT Agenda \cite{Rouse}, a smart home is defined as:
+\begin{displayquote} 
+``A residence that uses internet-connected devices to enable the remote monitoring and management of appliances and systems, such as lighting and heating.''
+\end{displayquote}
+
+\noindent The aim of a smart home is to provide the home owners a sense of security, comfort, convenience and energy efficiency by allowing them to control smart devices through a smart home app on their smartphone or other networked device \cite{Rouse}. Smart devices can often also operate together, sharing information between the devices and making actions based on that information and the users preferences. The devices also exchange data with internal and
+external actors. These interactions can take place in mobile applications on end-user equipment such as smartphones and tablets, as well as remote services in the Cloud \cite{ENISA2015SmartHome}.
+
+\subsection{Smart home technologies}
+Smart home technology first came with the introduction of the communication protocol X10. This protocol utilised the existing electrical wiring of a home to send signals with information and commands to the automated devices. This did not come without problems, however, as it was seen as unreliable at times since electrical wiring was not designed to be free from radio-band noise, which could cause loss of signal. In 2005, technology that combined electrical wiring with wireless signals was introduced. Other protocols, including Zigbee and Z-Wave, have since emerged to counter some of the problems with X10 \cite{Rouse}. Since then, smart home technology has entered most aspects of our daily lives, and recently, companies like Amazon, Google and Samsung have entered the market with their own systems. Some examples of smart device types are:
+
+\begin{itemize}
+    \item \textbf{SmartTV's: } which connects to the internet to access content such as video or music, and some also include voice and gesture recognition. 
+    \item \textbf{Smart lighting systems: } which can be remotely controlled and customised to detect when people are in the room, and adjust lighting level as needed. 
+    \item \textbf{Smart thermostats: } which can monitor, remotely control and automatically adjust home temperature. 
+    \item \textbf{Smart locks and garage door openers: } Which can control access, and also automatically detect the residents so the door opens. 
+    \item \textbf{Smart security cameras: } which monitors their homes while away. 
+    \item \textbf{Household system monitors:} which can detect anomalies and turn of systems to prevent further damage in case of an electrical surge, or water failures. 
+    \item \textbf{Kitchen appliances: } which can automatically make you coffee in the morning, or a refrigerator which keep track of expiration dates and can make shopping lists. 
+    \item \textbf{Robot vacuums or lawnmowers: } which can can remotely controlled and/or scheduled to perform their tasks automatically. 
+    \item \textbf{Smart voice assistants: } which can take commands by voice and control other devices.
+\end{itemize}
+
+\subsection{Smart home resident roles}
+The paper by Mennicken and Huang \cite{Mennicken2012} seeks to understand how the smart home technologies are integrated into homes, as well as their effects on the residents. They conducted a qualitative study involving smart home providers and consumers. The main results were motivations for home automation, phases of making a smart home, and the different roles of the residents. Especially interesting is the identification of different roles within the household. Technologically competent people can generally be identified as home technology drivers, who shows strong interest in home automation. Household members with no technical background, but still have the main responsibility of the home automation are categorised as home technology responsibles. Most other users are categorised as passive users, except for guests and children. 
 
 \section{Security awareness}
-This part will focus on describing security awareness. 
+This part will focus on briefly describing security awareness (SA) as a concept, and focuses on the aspects that are relevant to the work I will be doing in my thesis. 
 
-The paper by Rahim et al. \cite{rahim_et_al} reviews approaches to assessing cybersecurity awareness. The authors captured 23 studies from 2005 to 2014, and categorised them by assessment method, target audiences, coverage of assessment and assessment goals, among other things. It found that very few studies focused on youngsters and on the issue of protecting personal information, while most studies are focused on organisations. The value in this paper for me is a taxonomy of methods which I can use as inspiration. One of the target audiences are home users, which is what my thesis will focus on. Most of these studies used a survey-based questionnaire, which could indicate that this is a good option. However, it can also mean that there should be some diversity in the methodology targeting these groups. Other papers, which had similar goals to mine, also mostly utilise questionnaires. 
+\subsection{Definition}
+To understand and define security awareness, we need to look at awareness as a concept. Awareness has its roots in behavioural theory of psychology and refers to the state resulting from the acquisition of knowledge, norms, or practises \cite{SecAware2019}. The acquisition is a personal process connected to intimate factors that characterise not only the individual, but the overall group. There are three elements of this process \cite{SecAware2019}:
+\begin{itemize}
+    \item \textbf{Knowledge:} which indicated the process by which an individual learn the existing standards, norms, and procedures that are desirable to ensure both the environment and operations.
+    \item \textbf{Attitude:} which is connected to the consciousness of an individual and refers to the perception that the latter has about the object of interest. In the case of security it comes from the belief that security norms are useful. The attitude is deeply influenced by the group culture. 
+    \item \textbf{Behaviour:} which is the actions that are taken based on the consciousness of an individual, which are the consequence of the shared values of a group. 
+\end{itemize}
+The security awareness is therefore the concept of awareness applied specifically to the field of security, and especially cyber security.
 
-The aim of the paper by Drevin et al. \cite{Drevin2006} is to introduce a value-focused assessment methodology when identifying ICT security awareness aspects. The approach focuses on identifying the stakeholders that would be impacted by the decisions, and questioning them about their values related to the area of interest. These values are then used to identify objectives like maximising the confidentiality and integrity of data. For my thesis it could be interesting to consider taking a value-based approach when assessing the security awareness and especially the risk perceptions of smart home users. 
+\subsection{Levels of security awareness}
+According to an article by Shaw et al. \cite{SHAW200992}, the level of security awareness can be broken down into three different levels:
 
-From an earlier paper \cite{rahim_et_al} we learned that few studies focuses on the security awareness of youngsters in particular. However, in an article by Gkioulos et al. \cite{Gkioulos2017} they focused specifically on youngsters, who they define as digital natives, and their security awareness level. The study utilised three distinct samples, which diverged by security competence and regional background. The results concluded that these factors significantly influenced some user behaviour, while specific areas like storage of plain-text passwords were not affected. The study focused on general usage patterns and behaviours, which may be similar to what I will utilise when assessing security awareness. 
-
-\section{Risk perceptions}
-
+\begin{itemize}
+    \item \textbf{Level 1 SA: perception} the ability to sense and detect potential security risks, and to achieve an understanding of the presence or awareness of a threat.
+    \item \textbf{Level 2 SA: comprehension} the ability to comprehend, understand and assess the dangers posed by different threats. This includes ensuring that users know how to integrate information from multiple sources, and interpret them in the right direction. 
+    \item \textbf{Level 3 SA: projection} the ability to project or predict the future course of security attacks. The ability to anticipate future situational events indicates that users have the highest level of understanding of their surroundings \cite{SHAW200992}. 
+\end{itemize}
 
 \begin{comment}
 \section{Thesis Setup and Language Selection}
